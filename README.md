@@ -1,6 +1,6 @@
 # 🛡️ Health Insurance Premium Predictor
 
-This data-driven machine learning application accurately estimates healthcare insurance premium costs based on applicant demographics, medical history, and lifestyle factors. Developed by AtliQ AI for S.H.E.I.L.D. Insurance, the project leverages advanced regression techniques and model segmentation to provide reliable pricing insights through an interactive web interface.
+This data-driven machine learning application accurately estimates healthcare insurance premium costs based on applicant demographics, medical history, and lifestyle factors. Developed for S.H.E.I.L.D. Insurance, the project leverages advanced regression techniques and model segmentation to provide reliable pricing insights through an interactive web interface.
 
 ## 📊 Business Context
 
