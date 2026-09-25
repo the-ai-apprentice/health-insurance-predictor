@@ -18,25 +18,23 @@ S.H.E.I.L.D. Insurance requires a robust predictive model to minimize the financ
 * **High Accuracy Standards:** Achieves an R² score of >98% utilizing a Linear Regression model for younger applicants (prioritizing explainability) and a highly optimized XGBoost Regressor for adult applicants.
 
 ## 📂 Project Structure
+
+```text
 health-insurance-predictor/
-│
-├── main.py # Streamlit web application entry point
-├── premium_estimator.py # Core prediction engine & preprocessing pipeline
-├── visual_elements.py # Custom CSS and HTML styling functions
-│
-├── artifacts/ # Serialized model data
-│ ├── model_data_for_young.joblib
-│ └── model_data_for_adults.joblib
-│
-├── notebooks/ # Jupyter Notebooks
-│ ├── First draft.ipynb
-│ ├── ml premium project adults with gr.ipynb
-│ ├── ml premium project young with gr.ipynb
-│ ├── ml premium project young.ipynb
-│ └── Segmenting dataset.ipynb
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── main.py                    # Streamlit web application entry point
+├── premium_estimator.py       # Core prediction engine & preprocessing pipeline
+├── visual_elements.py         # Custom CSS and HTML styling functions
+├── artifacts/                 # Serialized model data
+│   ├── model_data_for_young.joblib
+│   └── model_data_for_adults.joblib
+├── notebooks/                 # Jupyter Notebooks
+│   ├── First draft.ipynb
+│   ├── ml premium project adults with gr.ipynb
+│   ├── ml premium project young with gr.ipynb
+│   ├── ml premium project young.ipynb
+│   └── Segmenting dataset.ipynb
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
 
 ## 🛠️ Data Processing Pipeline
 
