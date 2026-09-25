@@ -35,6 +35,7 @@ health-insurance-predictor/
 │   └── Segmenting dataset.ipynb
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
+```
 
 ## 🛠️ Data Processing Pipeline
 
@@ -52,3 +53,15 @@ git clone https://github.com/your-username/health-insurance-predictor.git
 cd health-insurance-predictor
 ```
 
+2. **Install dependencies:**
+Ensure you have Python 3.8+ installed. Install the required packages via `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+(Required packages include `streamlit`, `pandas`, `scikit-learn`, `xgboost`, and `joblib`).
+
+3. **Run the Streamlit App:**
+```bash
+streamlit run main.py
+```
+The application will launch automatically in your default web browser.
